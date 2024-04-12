@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "cbde693e-dbd2-414f-8d98-4518807e4ed4",
+		"name": "payever_userapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1152813"
+	},
+	"item": [
+		{
+			"name": "Get User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/user/12"
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Avatar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/user/4/avatar"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User Avatar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/user/4/avatar"
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"b.gunay4@gmail.com\",\r\n    \"first_name\": \"Burhan4\",\r\n    \"last_name\": \"Gunay\",\r\n    \"avatar\": \"https://reqres.in/img/faces/12-image.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/users"
+			},
+			"response": []
+		}
+	]
+}

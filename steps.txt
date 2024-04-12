@@ -1,0 +1,22 @@
+npm i -g  @nestjs/cli
+nest new payever-assignment --skip-git
+
+//npm i --save amqplib amqp-connection-manager
+
+npm i @nestjs/mongoose mongoose
+npm i --save @nestjs/axios axios
+npm i --save class-validator class-transformer
+npm install --save @nestjs-modules/mailer nodemailer
+npm install --save-dev @types/nodemailer
+
+npm i @types/amqplib
+
+
+nest g module users
+nest g controller user
+nest g service user
+-- delete .spec.ts files
+
+- crete dto package under users module and create CreateUserDto
+
+
